@@ -77,7 +77,7 @@ El modulo esta configurado de tal manera que permita especificar de forma sencil
  - magenta
 
 Ejemplo 1: Generando una imagen con la componente de color azul de la imagen original
-```
+```js
 //Cargar la imagen que será procesada
 var bufferImg = buffer.get('nombre_de_la_imagen');
 
@@ -89,7 +89,7 @@ color.generate({
 ```
 
 Ejemplo 2: Generando una imagen con la componente de color cian de la imagen original
-```
+```js
 //Cargar la imagen que será procesada
 var bufferImg = buffer.get('nombre_de_la_imagen');
 
@@ -102,7 +102,7 @@ color.generate({
 
 
 Ejemplo 3: Generando una imagen  con el modelo de color YUV de la imagen original.
-```
+```js
 //Cargar la imagen que será procesada
 var bufferImg = buffer.get('nombre_de_la_imagen');
 
@@ -114,7 +114,7 @@ color.generate({
 ```
 
 Ejemplo 4: Obteniendo una imagen estereoscópica a partir de dos imágenes(tener en cuenta que las dos imágenes tienen que tener un desplazamiento horizontal en  centimetros o milimetros, entre si. Este desplazamiento depende de la visión. Para mayor información del desplazamiento de las imágenes puede visitar el siguiente enlace [imágenes estereoscópicas](https://es.wikipedia.org/wiki/Estereoscop%C3%ADa))
-```
+```js
 //Cargar la imagen que será procesada
 var bufferImgLeft = buffer.get('nombre_de_la_imagen_uno');
 var bufferImgRight = buffer.get('nombre_de_la_imagen_dos_desplazada');
@@ -131,8 +131,8 @@ color.generate({
 
 Adicionalmente se pueden especificar otros parámetros adiciones como por ejemplo un nombre a la imagen resultante o no generar ninguna imagen resultante y únicamente trabajar con el buffer resultante que retorna la aplicación.
 
-Ejemplo 4: Obteniendo el modelo de color YUV de la imagen original y especificando un nombre a la imagen resultante
-```
+Ejemplo 5: Obteniendo el modelo de color YUV de la imagen original y especificando un nombre a la imagen resultante
+```js
 //Cargar la imagen que será procesada
 var bufferImg = buffer.get('nombre_de_la_imagen');
 
@@ -144,8 +144,8 @@ color.generate({
 });
 ```
 
-Ejemplo 5: Obteniendo el buffer del modelo de color YUV de la imagen original y mostrando el resultado en el terminal
-```
+Ejemplo 6: Obteniendo el buffer del modelo de color YUV de la imagen original y mostrando el resultado en el terminal
+```js
 //Cargar la imagen que será procesada
 var bufferImg = buffer.get('nombre_de_la_imagen');
 
