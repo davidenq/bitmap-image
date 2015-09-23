@@ -162,3 +162,4 @@ console.log(resultado);
 ###Licencia
 
 [MIT Licence](https://github.com/davidenq/bitmap-image/blob/master/LICENSE)
+
