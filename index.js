@@ -1,4 +1,10 @@
 
+/**
+ * @package bitmap-image
+ * @author David Núñez
+ * @license https://github.com/davidenq/bitmap-image/blob/master/LICENSE
+ */
+
 //Cargando libreria
 var color = require('./src/color');
 var buffer = require('./src/helpers/loadBuffer');

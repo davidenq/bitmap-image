@@ -1,5 +1,11 @@
 'use strict';
 
+/**
+ * @package bitmap-image
+ * @author David Núñez
+ * @license https://github.com/davidenq/bitmap-image/blob/master/LICENSE
+ */
+
 var dec2hex = (function() {
 
     function dec2hex(dec) {

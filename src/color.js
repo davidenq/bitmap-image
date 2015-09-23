@@ -1,5 +1,11 @@
 'use stricts';
 
+/**
+ * @package bitmap-image
+ * @author David Núñez
+ * @license https://github.com/davidenq/bitmap-image/blob/master/LICENSE
+ */
+
 var img = require('./helpers/generateImage');
 var component = require('./components');
 var Buffer = require('buffer').Buffer;

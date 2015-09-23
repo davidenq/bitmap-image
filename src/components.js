@@ -1,4 +1,11 @@
 'use strict';
+
+/**
+ * @package bitmap-image
+ * @author David Núñez
+ * @license https://github.com/davidenq/bitmap-image/blob/master/LICENSE
+ */
+
 /* Module dependences */
 
 var dec2hex = require('./helpers/dec2hex');
